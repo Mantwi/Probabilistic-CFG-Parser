@@ -4,7 +4,7 @@ from math import fsum
 
 class Pcfg(object): 
     """
-    Represent a probabilistic context free grammar. 
+    Representing a probabilistic context free grammar. 
     """
 
     def __init__(self, grammar_file): 
@@ -38,7 +38,7 @@ class Pcfg(object):
 
     def verify_grammar(self):
         """
-        Return True if the grammar is a valid PCFG in CNF.
+        This will return True if the grammar is a valid PCFG in CNF.
         Otherwise return False. 
         """
         # TODO, Part 1

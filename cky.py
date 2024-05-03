@@ -26,7 +26,7 @@ def check_table_format(table):
                 sys.stderr.write("Keys of the inner dictionary (for each span) must be strings representing nonterminals.\n")
                 return False
             bps = table[split][nt]
-            if isinstance(bps, str): # Leaf nodes may be strings
+            if isinstance(bps, str): 
                 continue 
             if not isinstance(bps, tuple):
                 sys.stderr.write("Values of the inner dictionary (for each span and nonterminal) must be a pair ((i,k,A),(k,j,B)) of backpointers. Incorrect type: {}\n".format(bps))
