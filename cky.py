@@ -1,8 +1,3 @@
-"""
-COMS W4705 - Natural Language Processing - Fall 2023
-Homework 2 - Parsing with Probabilistic Context Free Grammars 
-Daniel Bauer
-"""
 import math
 import sys
 from collections import defaultdict

@@ -1,9 +1,3 @@
-"""
-COMS W4705 - Natural Language Processing - Fall 2023
-Homework 2 - Parsing with Context Free Grammars 
-Daniel Bauer
-"""
-
 import sys
 from collections import defaultdict
 from math import fsum
